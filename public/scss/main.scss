@@ -1,0 +1,6 @@
+@import 'color';
+@import 'variable';
+@import 'theme';
+
+@include container($bg-container, 800px, 'center', 'fullscreen');
+@include block-banners;
